@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: #2f3154;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+  gap: 10px;
+}
+
+.box {
+  border-radius: 5px;
+}
+
+.green { background: #6cc04a; }
+.red { background: #ef2b2d; }
+.yellow { background: #f4a62a; }
+
+.tall {
+  grid-row: span 3;
+}
+
+.wide {
+  grid-column: span 2;
+}

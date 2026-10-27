@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  background: #f2f2f2;
+}
+.container {
+  position: relative;
+  height: 300px;
+}
+ 
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background:blue;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0% { top: 0; }
+  50% { top: 250px; }
+  100% { top: 0; }
+}
